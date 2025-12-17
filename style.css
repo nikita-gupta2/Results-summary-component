@@ -156,6 +156,13 @@ button{
   display: flex;
   justify-content: space-between;
 }
+.label{
+  display: flex;
+  justify-content: center;
+}
+.label img{
+  margin-right: 0.5rem;
+}
 
 @media(max-width: 400px){
   main{
@@ -176,6 +183,7 @@ button{
     border-top-right-radius: 0;
   }
 }
+
 @media((min-width: 400px) and (max-width:750px) ){
   
   main{
